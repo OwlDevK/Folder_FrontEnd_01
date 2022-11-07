@@ -1,0 +1,376 @@
+
+/* 
+    Selector de atributo: 
+        Selector de id
+            - Antecede el símbolo numeral '#'
+            - Son case sensitive
+            - No se recomienda usa id para dar estilos, porque eson son aplicables solo a un elemento y uno de los principios de CSS es que los principios de CSS es que los estilos sean reutilizables.
+            - baja el rendimiento de especificidad
+
+    Selector de atributo: 
+        Selectores de clase
+            - Antecede el punto '.'
+            - Es el selector más recomendado para dar estilos
+
+
+        Selector de atributo: 
+            - se coloca el atributo en común dentro de un paréntesis cuadrado '[]'
+
+
+
+[class]{
+    background-color: blueviolet; 
+}
+
+[class^="container"]{  Esto ^ significa= si la referencia empieza con p.e "container, para indicar "si termiina con" se usa el dolar $ 
+    background-color: blueviolet;
+}
+
+[class*="container"]{  Con *, el selector aplica el estilo a todo lo que tenga la referencia indicada, en este caso "containen", sin importar la posición
+    background-color: blueviolet; 
+}
+*/
+
+body{
+    margin: 3% 8%;
+    font-family: Poppins;
+}
+
+.navBar-logo{
+    display: inline-block;
+}
+
+.nav__bar{
+    position: relative;
+    bottom: 15px;
+    left: 67%;
+}
+
+.container__titleHero > p {
+    position: relative;
+    display: inline-block;
+    font-size: 1vw;    
+}
+
+.container__titleHero {
+    margin-bottom: 2vw;
+}
+
+.spaceBeforeLine::after{
+    content:" ";
+    padding-right: 2em;
+    margin-top: 0%;
+}
+
+.line{
+    content:" ";
+    display: inline-block;
+    height: .2vw;
+    width: 50%;
+    background: black;
+    bottom: 6px;
+}
+
+.container__firstTitleHero > .line{
+    right: 0;
+    position: absolute;
+    top: 6%;
+    width: 58%;
+}
+
+.hero{
+    display: block;
+    position: relative;
+    margin-top: 90px;
+    width: 100%;
+}
+
+
+div.hero:nth-child(2) > .container__firstTitleHero{
+    display: inline-block;
+    font-size: 5.6vw;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
+.diferenciales {
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    color: white;
+    background-color: #2C3878;
+    padding: 2em;
+    border-radius: 4px;
+}
+
+.li-Diferenciales{
+    margin-bottom: 2.5em;
+    text-align: center;
+}
+
+.li-Diferenciales > h2{
+    font-size: 4vw;
+}
+
+img{
+    width: 100%;
+}
+
+
+div > .principal{
+    font-size: 3em;
+    font-weight: 400;
+}
+
+div > .secundario{
+    font-size: 1.7vw;
+    margin-top: 1em;
+    color: #9C9C9C;
+}
+
+
+.secondHero > .container__imagen{
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    margin-top: 2.5em;
+}
+
+.secondHero > .container__grayText {
+    display: inline-block;
+    width: 20%;
+    text-align: justify;
+    vertical-align: top;
+    margin-top: 20%;
+    margin-left: 8%;
+}
+
+.container__grayText > button{
+    background-color: #2C3878;
+    color: white;
+    height: 3em;
+    width: 9em;
+    vertical-align: baseline;
+    margin-top: 20%;
+    border: none;
+}
+
+.thirdHero > .secundario{
+    width: 42%;
+}
+
+.listaServicios{
+    position: absolute;
+    list-style-type: decimal;
+    margin-top: 2.5em;
+    font-size: 1.7vw;
+    margin-left: 2.5%;
+    background-color: white;
+
+}
+
+.listaServicios > li{
+    padding-left: 1em;
+    margin-bottom: 1.5em;
+    width: 34em;
+}
+
+.listaServicios >li > p, img{
+    display: inline-block;
+}
+
+
+.thirdHero-image{
+    width: 90%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+.principalAndSecundario > p{
+    display: inline-block;
+}
+
+.forthHero > .principal{
+    position: relative;
+    width: 60%;
+    font-size: 2em;
+}
+
+
+.principalAndSecundario > .secundario{
+    width: 40%;
+    top: 30%;
+    margin-left: 33%;
+}
+
+.listaProductos{
+    list-style-type: decimal;
+    margin-top: 2.5em;
+    font-size: 1.7vw;
+    margin-left: 2.5%;
+    background-color: white;
+    padding-left: 2em;
+    margin-bottom: 1em;
+}
+
+.products__list > p{
+    padding-left: 4.9em;
+    margin-bottom: 5%;
+    width: 20em;
+}
+
+.flecha{
+    position: absolute;
+    width: 1em;
+    right: 0%;
+}
+
+.fiveHero-texto{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.fiveHero-texto:nth-child(2){
+    width: 40%;
+    
+}
+
+.fiveHero-container-images{
+    width: 50%;
+    display: inline-block;
+}
+
+.fiveHero-allImages > img{
+    width: 21%;
+    display: inline-block;
+    position: absolute;
+    top: -10%;
+    left: 52%;
+}
+
+.fiveHero-imageC{
+    height: 90%;
+    margin-top: 7%;
+}
+
+.fiveHero-imagesDerecha{
+    display: inline-block;
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -15%;
+}
+
+.fiveHero-imageB{
+    width: 80%;
+    margin-top: 5%;
+}
+
+.fiveHero-texto > .principal{
+    font-size: 3vw;
+    line-height: 1.2em;
+}
+
+.fiveHero-texto > .secundario{
+    font-size: 1.5vw;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.fiveHero-texto > button {
+    font-size: 1.3vw;
+    color: black;
+    height: 2.5em;
+    width: 8em;
+    border: solid black 1px;
+    background-color: white;
+}
+
+.heroBeforeFooter{
+    background-color: #2C3878;
+    border: solid black 2px;
+    height: 10vw;
+}
+
+.heroBeforeFooter > p{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.heroBeforeFooter > p{
+    width: 48%;
+}
+
+.heroBeforeFooter > .principal{
+    font-size: 2.5vw;
+    line-height: 1em;
+    margin-left: 5%;
+}
+
+.heroBeforeFooter > .secundario{
+    font-size: 1.2vw;
+    line-height: 1em;
+    width: 30%;
+    color: white;
+    margin-left: 10%;
+    vertical-align: top;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.heroBeforeFooter > button{
+    left: 50%;
+    display: block;
+    margin-left: 63.2%;
+    height: 30px;
+    width: 80px;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+/* h1.start{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    display: inline;
+}
+
+h1.start {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+    display: inline-block;
+}
+ */  /*
+
+.firstHero__breakLine{
+    position: absolute;
+    margin-top: 3em;
+    margin-left: 36%;
+    align-items: center;
+    width: 47.8%;
+    border: 1px solid black;
+}
+*/
+
+
+
+
+/* 
+    Selectores Compuestos:
+        - Slectores combinadores
+        - toman una clase o una tag y posteriormente uno o más hijos
+        - lo recomendable es no ir más allá de un nivel de decendencia
+*/
