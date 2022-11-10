@@ -36,14 +36,36 @@ body{
     font-family: Poppins;
 }
 
-.navBar-logo{
-    display: inline-block;
+header{
+    height: 45px;
+    position: relative;
 }
 
-.nav__bar{
-    position: relative;
-    bottom: 15px;
-    left: 67%;
+.logoContainer, .menuNav{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logoContainer{
+    width: 30%;
+}
+
+.menuNav{
+    width: 69.5%;  
+}
+
+.menuNav > ul{
+    margin-left: 0;
+    margin-left: 20%;
+}
+
+.itemNav:nth-child(n):not(:last-child){
+    margin-right: 2.76em;
+}
+
+
+.itemNav{
+    display: inline-block;
 }
 
 .container__titleHero > p {
@@ -81,7 +103,7 @@ body{
 .hero{
     display: block;
     position: relative;
-    margin-top: 90px;
+    margin-top: 170px;
     width: 100%;
 }
 
@@ -308,6 +330,7 @@ div > .secundario{
     font-size: 2.5vw;
     line-height: 1em;
     margin-left: 5%;
+    color: white;
 }
 
 .heroBeforeFooter > .secundario{
@@ -330,8 +353,40 @@ div > .secundario{
     margin-top: -10px;
 }
 
+.rodapie{
+    padding: 6vw;
+}
 
+.rodapie > div{
+    display: inline-block;
+    width: 100%;
+}
 
+.rodapie > .left{
+    margin-right: 28%;
+    margin-left: 5%;
+    width: 30%;
+    font-size: 2vw;
+}
+
+.rodapie > .rigth{
+    width: 25%;
+    vertical-align: top;
+
+}
+
+.rodapieLogo{
+    width: 100px;
+}
+
+.btn-email{
+    margin-top: 10px;
+    width: 260px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    border-bottom: solid black 0.5px;
+}
 
 
 
