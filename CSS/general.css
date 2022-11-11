@@ -48,7 +48,6 @@ header{
     color: aliceblue;
     background-color: #2C3878;
     transition: 0.5s;
-    touch-action: pinch-zoom;
 }
 
 
