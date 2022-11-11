@@ -1,0 +1,147 @@
+.container, .rodapie{
+    width: 940px;
+    margin-top: 70px;
+    margin-top: 70px;
+}
+
+
+main{
+    margin: auto;
+}
+
+
+main > img{
+    width: 100%;
+}
+
+.main-textBox > h1{
+    font-size: 2.5vw;
+    font-weight: 800;
+    text-align: center;
+}
+
+.main-textBox > .mainSmallText{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 2em;
+    font-size: 1em;
+    width: 47%;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.titleBox{
+    margin-bottom: 30px;
+}
+
+.main-textBox > p{
+    width: 48%;
+    margin: auto;
+} 
+
+
+.breakLine{
+    display: inline-block;
+    content: " ";
+    height: 2px;
+    width: 400px;
+    background-color: black;
+}
+
+.titleBox > .title, .breakLine{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.achivementsContainer:nth-child(n){
+    display: block;
+    width: 100%;
+
+}
+
+.achivement > *:nth-child(n){
+    display: inline-block;
+}
+
+.achivement:not(:last-child){
+    margin-bottom: 30px;
+}
+
+
+.achivementImg{
+    width: 63%;
+}
+
+.achivementTextBox{
+    width: 29.5%;
+    vertical-align: top;
+    margin-top: 10%;
+    margin-left: 7%;
+    text-align: center;
+    text-align: justify;
+    line-height: 1.3em;
+    color: #9C9C9C;
+}
+
+.achivementTitle{
+    text-align: left;
+    margin-bottom: 1em;
+    font-weight: 501;
+    color: black;
+}
+
+/* seccion 2*/
+
+
+
+.container__div-2 > .textBox > .bigText{
+    width: 50%;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    display: inline-block;
+}
+
+.container__div-2 > .textBox > .smallText{
+    width: 40%;
+    margin-left: 9.5%;
+    display: inline-block;
+    font-size: 1em;
+    color: #9C9C9C;
+}
+
+.ol-productos{
+    list-style-type: decimal;
+    margin-top: 2.5em;
+    font-size: 1.7vw;
+    margin-left: 2.5%;
+    margin-bottom: 1em;
+}
+
+.li-producto{
+    padding-left: 2em;
+    margin-bottom: 5%;
+}
+
+.li-producto > p{
+    width: 23em;
+    font-size: 0.6em;
+    margin-top: 1em;
+    line-height: 1.5em;
+}
+
+.li-producto__flecha{
+    position: relative;
+    width: 1em;
+    vertical-align: middle;
+}
+
+.li-producto__title{
+    width: 96%;
+    font-size: 1em;
+}
+
+.li-producto__flecha, .li-producto__title{
+    display: inline-block;
+}
+
+

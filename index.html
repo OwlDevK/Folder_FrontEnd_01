@@ -5,24 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/index_style.css">
+    <link rel="stylesheet" href="CSS/general.css">
     <link rel="stylesheet" href="Imagenes/imagenes_index/arrow.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap">
 </head>
 
 <body>
     <div class="containerAll">
+
         <header>
             <div class="logoContainer">
                 <img src="Imagenes/logo.png" alt="" class="logo">
             </div>
             <nav class="menuNav">
                 <ul class="lista-itemNav">
-                    <li class="itemNav"><a href="">Home</a> </li>
-                    <li class="itemNav"><a href="">About Us</a></li>
-                    <li class="itemNav"><a href="">Services</a></li>
+                    <li class="itemNav"><a href="index.html">Home</a> </li>
+                    <li class="itemNav"><a href="about.html">About Us</a></li>
+                    <li class="itemNav"><a href="services.html">Services</a></li>
                     <li class="itemNav"><a href="">Our Teams</a></li>
                     <li class="itemNav"><a href="">Contact Us</a></li>
                 </ul>
@@ -51,6 +53,7 @@
             </div>
             <img src="Imagenes/imagenes_index/imageA.png" alt="">
         </div>
+
         <div class="hero secondHero">
             <div class="container__titleHero">
                 <p class="spaceBeforeLine"> ABOUT </p>
@@ -71,6 +74,7 @@
                 <button>Learn More</button>
             </div>
         </div>
+        
         <div class="hero thirdHero">
             <div class="container__titleHero">
                 <p class="spaceBeforeLine">SERVICE</p>
@@ -81,7 +85,7 @@
                 furniture. We try our
                 best to fulfill your expectations.
             </p>
-            <ol class="listaServicios" type="1">
+            <ol class="listaServicios" type="">
                 <li>
                     <p>Interior Design</p>
                     <img src="Imagenes/imagenes_index/arrow.png" alt="" class="flecha">
@@ -110,11 +114,11 @@
             </div>
             <div class="forthHero-list">
                 <ol class="products__list">
-                    <li class="listaProductos"> Vintage </li>
+                    <li class="listaProductos">Vintage</li>
                     <img src="Imagenes/imagenes_index/arrow.png" alt="" class="flecha">
                     <p>The use of simple and limited elements to get the best effect or impression.</p>
         
-                    <li class="listaProductos">Minimalist </li>
+                    <li class="listaProductos">Minimalist</li>
                     <img src="Imagenes/imagenes_index/arrow.png" alt="" class="flecha">
                     <p>The use of simple and limited elements to get the best effect or impression.</p>
         
@@ -149,23 +153,23 @@
                 </div>
             </div>
         </div>
-        <div class="hero heroBeforeFooter">
-            <p class="principal">Let's discuss making your own interior like a dream place</p>
-            <p class="secundario">Contact us to work together to build your amazing interior</p>
-            <button type="button">Contac Us</button>
+        <div class="container containerDiv_3">
+            <div class="left">
+                <p>let's discuss making your interior like a dream place</p>
+            </div>
+            <div class="rigth">
+                <p>Contact us below to work together to build your amazing interior</p>
+                <button>Contact Us</button>
+            </div>
         </div>
-        </body>
-        <footer>
-            <div class="rodapie">
-                <div class="left">
-                    <img src="Imagenes/logo.png" alt="logo" class="rodapieLogo">
-                    <p>One of the best furniture agency.</p>
-                </div>
-                <div class="rigth">
-                    <p>Enter your email to get the laterst news</p>
-                    <button type="email" class="btn-email">
-        
-                </div>
+        <footer class="rodapie">
+            <div class="footerLeft">
+                <img src="Imagenes/logo.png" alt="" class="logo">
+                <p>One of the best furniture agency.</p>
+            </div>
+            <div class="footerRigth">
+                <p>Enter your email to get the laterst news</p>
+                <input type="email" placeholder="Email Adress" class="btn-email">
             </div>
         </footer>
     </div>

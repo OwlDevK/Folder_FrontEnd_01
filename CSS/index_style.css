@@ -31,43 +31,6 @@
 }
 */
 
-body{
-    margin: 3% 8%;
-    font-family: Poppins;
-}
-
-header{
-    height: 45px;
-    position: relative;
-}
-
-.logoContainer, .menuNav{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.logoContainer{
-    width: 30%;
-}
-
-.menuNav{
-    width: 69.5%;  
-}
-
-.menuNav > ul{
-    margin-left: 0;
-    margin-left: 20%;
-}
-
-.itemNav:nth-child(n):not(:last-child){
-    margin-right: 2.76em;
-}
-
-
-.itemNav{
-    display: inline-block;
-}
-
 .container__titleHero > p {
     position: relative;
     display: inline-block;
@@ -256,8 +219,7 @@ div > .secundario{
 }
 
 .fiveHero-texto:nth-child(2){
-    width: 40%;
-    
+    width: 40%; 
 }
 
 .fiveHero-container-images{
@@ -390,42 +352,3 @@ div > .secundario{
 
 
 
-
-
-
-/* h1.start{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 28px;
-    text-align: justify;
-    display: inline;
-}
-
-h1.start {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 28px;
-    margin: 0;
-    display: inline-block;
-}
- */  /*
-
-.firstHero__breakLine{
-    position: absolute;
-    margin-top: 3em;
-    margin-left: 36%;
-    align-items: center;
-    width: 47.8%;
-    border: 1px solid black;
-}
-*/
-
-
-
-
-/* 
-    Selectores Compuestos:
-        - Slectores combinadores
-        - toman una clase o una tag y posteriormente uno o más hijos
-        - lo recomendable es no ir más allá de un nivel de decendencia
-*/

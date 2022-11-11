@@ -1,0 +1,157 @@
+/* Header: menu navegación y lgo*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.containerAll{
+    width: 940px;
+    margin: auto;
+    padding: 2em 4em 4em 4em;
+    border: 1px solid #9C9C9C;
+    background-color: #ece6e6;
+}
+
+header{
+    height: 45px;
+}
+
+.logoContainer, .menuNav{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logoContainer{
+    width: 30%;
+}
+
+.menuNav{
+    width: fit-content;
+    margin-left: 7.2%;
+}
+
+.lista-itemNav > li{
+    display: inline-block;
+
+}
+
+
+.itemNav > a{
+    text-decoration: none;
+    color: black;
+    line-height: 2em;
+    padding: 0.6em 1.5em 0.6em 1.5em;
+}
+
+
+.itemNav > a:hover {
+    color: aliceblue;
+    background-color: #2C3878;
+    transition: 0.5s;
+    touch-action: pinch-zoom;
+}
+
+
+
+
+/* Footer y sección para ingresar email*/
+
+/* rodapie */
+
+.containerDiv_3{
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.containerDiv_3 > div{
+    display: inline-block;
+}
+
+.containerDiv_3{
+    background-color: #2C3878;
+    height: 10vw;
+    color: white;
+}
+
+
+.containerDiv_3 > .left{
+    width: 50%;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.containerDiv_3 > .rigth{
+    width: 30%;
+    font-size: 1.05vw;
+    line-height: 25px;
+    margin-left: 10%;
+    vertical-align: top;
+    font-weight: normal;
+}
+
+.rigth > button{
+    left: 50%;
+    display: block;
+    height: 30px;
+    width: 80px;
+    margin-top: 1em;
+}
+
+
+
+
+/* Footer*/
+.rodapie{
+    height: 14em;
+    padding: 3em;
+    box-sizing: border-box;
+    color: black;
+}
+
+.rodapie > div:nth-child(n){
+    display: inline-block;
+}
+
+
+.rodapie > .footerLeft{
+    width: 40%;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.footerRigth{
+    font-size: .9em;
+    width: 30%;
+    vertical-align: middle;
+    margin-left: 20%;
+}
+
+.footerRigth > p{
+    margin-top: 3em;
+}
+
+
+.footerLeft > .logo{
+    margin-bottom: 0.7em;
+}
+
+
+.btn-email{
+    margin-top: 16px;
+    width: 260px;
+    height: 40px;
+    border: none;
+    background-color: #ece6e6;
+    border-bottom: solid black 0.5px;
+}
+
+.rigth > button{
+    left: 50%;
+    display: block;
+    height: 30px;
+    width: 80px;
+    margin-top: 1em;
+}

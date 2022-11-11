@@ -10,45 +10,6 @@ body{
     background-color: #ece6e6;
 }
 
-
-.img{
-    width: 100%;
-    margin: auto;
-}
-
-header{
-    height: 45px;
-    position: relative;
-}
-
-.logoContainer, .menuNav{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.logoContainer{
-    width: 30%;
-}
-
-.menuNav{
-    width: 69.5%;  
-}
-
-.menuNav > ul{
-    margin-left: 0;
-    margin-left: 20%;
-}
-
-.itemNav:nth-child(n):not(:last-child){
-    margin-right: 2.76em;
-}
-
-
-.itemNav{
-    display: inline-block;
-}
-
-
 section, main, footer{
     width: 940px;
     margin-top: 70px;
@@ -56,6 +17,10 @@ section, main, footer{
 
 main{
     text-align: center;
+}
+
+main > img{
+    width: 100%;
 }
 
 .main-textBox > h1{
@@ -177,93 +142,6 @@ main{
     font-size: 0.8em;
 }
 
-
-.containerSection_3{
-    padding: 30px;
-    box-sizing: border-box;
-}
-
-.containerSection_3 > div{
-    display: inline-block;
-}
-
-.containerSection_3{
-    background-color: #2C3878;
-    height: 10vw;
-    color: white;
-}
-
-
-.containerSection_3 > .sectLeft{
-    width: 50%;
-    font-size: 1.7em;
-    line-height: 1.5em;
-    font-weight: 500;
-}
-
-.containerSection_3 > .sectRigth{
-    width: 30%;
-    font-size: 1.05vw;
-    line-height: 25px;
-    margin-left: 10%;
-    vertical-align: top;
-    font-weight: normal;
-}
-
-.sectRigth > button{
-    left: 50%;
-    display: block;
-    height: 30px;
-    width: 80px;
-    margin-top: 1em;
-}
-
-
-.rodapie{
-    height: 14em;
-    padding: 3em;
-    box-sizing: border-box;
-    color: black;
-}
-
-.rodapie > div:nth-child(n){
-    display: inline-block;
-}
-
-
-.rodapie > .footerLeft{
-    width: 40%;
-    font-size: 1.5em;
-    line-height: 1.5em;
-    vertical-align: top;
-    font-weight: bold;
-}
-
-.footerRigth{
-    font-size: .9em;
-    width: 30%;
-    vertical-align: middle;
-    margin-left: 20%;
-}
-
-.footerRigth > p{
-    margin-top: 3em;
-}
-
-
-.footerLeft > .logo{
-    margin-bottom: 0.7em;
-}
-
-
-.btn-email{
-    margin-top: 16px;
-    width: 260px;
-    height: 40px;
-    border: none;
-    background-color: #ece6e6;
-    border-bottom: solid black 0.5px;
-}
 
 
 
