@@ -73,7 +73,7 @@
 
 div.hero:nth-child(2) > .container__firstTitleHero{
     display: inline-block;
-    font-size: 5.6vw;
+    font-size: 4vw;
     font-weight: bold;
     line-height: 1.4em;
 }
@@ -142,7 +142,7 @@ div > .secundario{
 }
 
 .thirdHero > .secundario{
-    width: 42%;
+    width: 43%;
 }
 
 .listaServicios{
@@ -151,7 +151,6 @@ div > .secundario{
     margin-top: 2.5em;
     font-size: 1.7vw;
     margin-left: 2.5%;
-    background-color: white;
 
 }
 
@@ -195,7 +194,6 @@ div > .secundario{
     margin-top: 2.5em;
     font-size: 1.7vw;
     margin-left: 2.5%;
-    background-color: white;
     padding-left: 2em;
     margin-bottom: 1em;
 }
@@ -231,8 +229,8 @@ div > .secundario{
     width: 21%;
     display: inline-block;
     position: absolute;
-    top: -10%;
-    left: 52%;
+    margin- top: -8%;
+    margin-left: 12%;
 }
 
 .fiveHero-imageC{
@@ -269,86 +267,10 @@ div > .secundario{
     height: 2.5em;
     width: 8em;
     border: solid black 1px;
-    background-color: white;
 }
 
-.heroBeforeFooter{
-    background-color: #2C3878;
-    border: solid black 2px;
-    height: 10vw;
+.fiveHero-allImages{
+    top: 4rem;
 }
-
-.heroBeforeFooter > p{
-    display: inline-block;
-    margin-top: 30px;
-    margin-bottom: 0;
-}
-
-.heroBeforeFooter > p{
-    width: 48%;
-}
-
-.heroBeforeFooter > .principal{
-    font-size: 2.5vw;
-    line-height: 1em;
-    margin-left: 5%;
-    color: white;
-}
-
-.heroBeforeFooter > .secundario{
-    font-size: 1.2vw;
-    line-height: 1em;
-    width: 30%;
-    color: white;
-    margin-left: 10%;
-    vertical-align: top;
-    font-weight: normal;
-    line-height: 25px;
-}
-
-.heroBeforeFooter > button{
-    left: 50%;
-    display: block;
-    margin-left: 63.2%;
-    height: 30px;
-    width: 80px;
-    margin-top: -10px;
-}
-
-.rodapie{
-    padding: 6vw;
-}
-
-.rodapie > div{
-    display: inline-block;
-    width: 100%;
-}
-
-.rodapie > .left{
-    margin-right: 28%;
-    margin-left: 5%;
-    width: 30%;
-    font-size: 2vw;
-}
-
-.rodapie > .rigth{
-    width: 25%;
-    vertical-align: top;
-
-}
-
-.rodapieLogo{
-    width: 100px;
-}
-
-.btn-email{
-    margin-top: 10px;
-    width: 260px;
-    height: 40px;
-    border: none;
-    background-color: white;
-    border-bottom: solid black 0.5px;
-}
-
 
 
