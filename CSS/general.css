@@ -1,7 +1,7 @@
 /* Header: menu navegación y lgo*/
 
 body{
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 
 .containerAll{
@@ -23,6 +23,10 @@ header{
 
 .logoContainer{
     width: 30%;
+}
+
+.logo{
+    width: 100px;
 }
 
 .menuNav{
@@ -96,6 +100,7 @@ header{
     width: 80px;
     margin-top: 1em;
 }
+
 
 
 
